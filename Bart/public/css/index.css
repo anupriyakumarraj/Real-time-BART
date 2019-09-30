@@ -1,0 +1,34 @@
+.disabledDiv {
+
+    opacity: 0.3;
+
+    cursor:not-allowed;
+}
+.disabledDiv a {
+        pointer-events: none;
+
+}
+
+.scrollable {
+
+        overflow-y:scroll;
+}
+
+.contentAligned {
+        max-height:50vh;
+        height:50vh;
+}
+
+
+.transitHeader {
+        display:flex;
+        justify-content:center;
+}
+
+
+
+
+
+#map {
+        height: 50vh;
+}
